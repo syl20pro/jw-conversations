@@ -9,34 +9,25 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href=""></a>Accueil</li>
-                <li><a href=""></a>Langue</li>
-                <li><a href=""></a>Contact</li>
-                <li><a href=""></a>Contribuer</li>
-            </ul>
-        </nav>
-    </header>
 
    <main>
-       <div id="container">
+       <div id="main-container">
            <div id="output">Appuyez sur le bouton pour une nouvelle suggestion</div>
            <button id="btn">Une autre suggestion</button>
        </div>
     </main>
 
     <footer>
-    
-    <table>
-        <tr>
-            <td>Crée par Sylvain Gemieux | <a href="https://sylvaingemieux.com">@syl20pro</a> <br>
-            Version </td>
-            <td>Année - Projet non officiel <br>
-            Sources : <a href="https://jw.org">jw.org</a></td>
-        </tr>
-    </table>
+        <div id="foot-container">
+            <div id="signature-container">
+                <p>Crée par Sylvain Gemieux | <a href="https://sylvaingemieux.com">@syl20pro</a> <br>
+                Version </p>
+            </div>
+            <div id="sources-container">
+                <p> <?php echo date('Y'); ?> - Projet non officiel <br>
+                    Sources : <a href="https://jw.org">jw.org</a></p>
+            </div>
+        </div>
 
     </footer>
     <script src="assets/js/main.js"></script>

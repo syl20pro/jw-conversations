@@ -13,8 +13,8 @@ V3 : Ajout d'une langue (anglais) et ajout de la possibilité de sélectionner l
 
 ## Sources et inspirations
 
-Sources : jw.org  
+Sources : [jw.org](https://jw.org)  
 Projet de départ :  
-Police d'écriture :  
-Couleurs : uigradients
+Police d'écriture : [Noto Sans](https://fonts.google.com/share?selection.family=Noto%20Sans) sur Google font  
+Couleurs : Very Blue de [UI gradients](https://uigradients.com/#VeryBlue)  
 API :
