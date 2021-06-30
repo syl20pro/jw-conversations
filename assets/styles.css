@@ -1,11 +1,35 @@
 @font-face {
+  font-family: "Noto Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap");
+}
+
+:root {
+  --good-green: #00988d;
+  --white-yellow: #f1f6ce;
+  --white-favorite: #f2f2f2;
+  --blue-night: #013750;
+  --blue-sea: #69d2cd;
+  --red-sun: #f23e02;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 }
 
 body {
-  background-color: #2c3e50;
-  color: #f2f2f2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: var(--blue-night);
+  color: var(--white-favorite);
+  padding: 2rem;
 }
 
 #main-container {
@@ -21,20 +45,58 @@ body {
     #0575e6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 5px solid #2c3e50;
-  height: 275px;
-  width: 750px;
-  margin: 0 auto;
+  border-radius: 20px;
+  padding: 4rem 1.5rem;
   text-align: center;
+  box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 1);
+}
+
+#main-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#main-container small {
+  font-weight: 700;
+  padding: 0.2rem 1rem;
+  color: var(--good-green);
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+#main-container p {
+  padding: 1.4rem 0;
+  font-weight: 300;
+}
+#main-container cite {
+  display: block;
+  font-style: normal;
+  margin-bottom: 1rem;
+}
+
+#gen-suggest-btn {
+  font-size: 1.1rem;
+  border: none;
+  background-color: var(--good-green);
+  color: var(--white-yellow);
+  padding: 0.7rem 1.2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  outline: 0;
+}
+
+#gen-suggest-btn:hover {
+  box-shadow: 0px 0px 9px 0px var(--white-yellow);
+}
+
+@media screen and (min-width: 680px) {
+  .main-container {
+    width: 600px;
+  }
 }
 
 #foot-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-#btn {
-  margin: 50px auto;
-  height: 5em;
-  width: 15em;
 }
