@@ -32,3 +32,9 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+
+#btn {
+  margin: 50px auto;
+  height: 5em;
+  width: 15em;
+}
