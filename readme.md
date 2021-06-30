@@ -2,7 +2,7 @@
 
 ## **Présentation du projet**
 
-Ce projet est basé sur les programmes d'affichage de phrase aléatoire. Pour ce projet, les phrases seront des suggestions de conversations spirituelles basées sur la Bible traduction du monde nouveau.
+Ce projet est basé sur les programmes d'affichage de phrases aléatoires. Pour ce projet, les phrases seront tirées des suggestions de conversations spirituelles basées sur la Bible traduction du monde nouveau.
 
 ## Roadmap
 
@@ -13,8 +13,8 @@ V3 : Ajout d'une langue (anglais) et ajout de la possibilité de sélectionner l
 
 ## Sources et inspirations
 
-Sources : jw.org
-Projet de départ :
-Police d'écriture :
-Couleurs :
+Sources : jw.org  
+Projet de départ :  
+Police d'écriture :  
+Couleurs : uigradients
 API :
