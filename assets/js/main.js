@@ -1,6 +1,6 @@
 let btn = document.getElementById('btn');
-let output = document.getElementById('gen-suggest-btn');
-let suggest = [
+let output = document.getElementById('output');
+let suggestion = [
     'Dieu écoute-​t-​il les prières ?	Ps 65:2',
     'À propos de quoi pouvons-​nous prier ?	1J 5:14',
     'Où pouvons-​nous trouver des conseils pour être heureux ?	Ps 1:1,2',
@@ -31,7 +31,7 @@ let suggest = [
     'Quels bienfaits Dieu promet-​il pour l’avenir ?	Is 65:21-23',
     ];
 
-btn.addEventListener('click', function() {
-    var randomSuggest = suggest[Math.floor(Math.random() suggest.length)]
-    output.innerHTML = randomSuggest;
+btn.addEventListener('click', function(){
+    var randomSuggestion = suggestion[Math.floor(Math.random() suggestion.length)]
+    output.innerHTML = randomSuggestion;
 })
