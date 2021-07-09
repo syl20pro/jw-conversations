@@ -7,9 +7,9 @@ Ce projet est une adaptations des programmes d'affichage de phrases aléatoires.
 ## Roadmap
 
 - [x] V1 : Affiche une suggestion de conversation aléatoire depuis le fichier javascript
-- [] V2 : Création d'une BDD et mise en place d'une API pour l'affichage des suggestions de conversations
-- [] V3 : Ajout d'une langue (anglais) et ajout de la possibilité de sélectionner la langue avant l'affichage de la suggestion  
-  ...
+- [ ] V2 : Création d'une BDD et mise en place d'une API pour l'affichage des suggestions de conversations
+- [ ] V3 : Ajout d'une langue (anglais) et ajout de la possibilité de sélectionner la langue avant l'affichage de la suggestion  
+      ...
 
 ## Sources et inspirations
 
