@@ -2,11 +2,11 @@
 
 ## [Unreleased]
 
-## [1.0.1] 2021-07-17
+## [1.1.0] 2021-07-17
 
 ### Added
 
-- Creation of the change log file
+- Creation of the changelog file
 
 ## [1.0.0] 2021-07-08
 
